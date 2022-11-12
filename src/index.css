@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Tomorrow", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:wght@500&display=swap");
