@@ -27,9 +27,9 @@ const Box = ({
           </div>
         </div>
         <div className="w-80 h-96 bg-gradient-to-b from- bg-[#1a1e33] rounded-2xl absolute flex justify-center border border-[#272b40] flex-col gap-4">
-          <div className="flex items-center justify-center flex-col gap-2 mt-10">
+          <div className="flex items-center justify-center flex-col gap-2 mt-16">
             <span className="text-[#535875]">{name}</span>
-            <span className="flex items-center p-1 bg-[#14172b] rounded-lg gap-2 w-48 justify-center">
+            <span className="flex items-center p-1 bg-[#14172b] rounded-full gap-2 w-64 justify-center">
               <p className=" text-white p-1 text-center">{amount}</p>
               <p className="text-green-500" style={style}>
                 {percent}
@@ -38,7 +38,7 @@ const Box = ({
           </div>
           <div className="flex items-center justify-center flex-col gap-2">
             <span className="text-[#535875]">Price</span>
-            <span className="flex items-center p-1 bg-[#14172b] rounded-lg gap-2 w-48 justify-center">
+            <span className="flex items-center p-1 bg-[#14172b] rounded-full gap-2 w-64 justify-center">
               <p className=" text-white p-1 text-center">$60,000</p>
             </span>
           </div>
