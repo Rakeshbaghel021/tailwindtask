@@ -1,3 +1,4 @@
+import "./App.css";
 import Box from "./components/Box";
 import bit from "./assets/bitcoin.png";
 import solana from "./assets/Solana.png";
@@ -5,7 +6,7 @@ import eth from "./assets/eth.jpg";
 import benance from "./assets/binance.png";
 import shiba from "./assets/shiba.png";
 
-export default function App() {
+function App() {
   return (
     <div className="flex w-full">
       <Box
@@ -15,6 +16,7 @@ export default function App() {
         subimg1={solana}
         subimg2={eth}
         subimg3={benance}
+        style={{ color: "#00FFA3" }}
         percent="+10%"
       />
       <Box
@@ -33,6 +35,7 @@ export default function App() {
         amount="$1,466.45"
         subimg1={solana}
         subimg2={bit}
+        style={{ color: "#00FFA3" }}
         subimg3={benance}
         percent="-11.93%"
       />
@@ -59,3 +62,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

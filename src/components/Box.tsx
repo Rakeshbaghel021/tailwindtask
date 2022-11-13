@@ -1,5 +1,16 @@
 import React from "react";
 
+interface BoxProps {
+  image: string;
+  name: string;
+  amount: string;
+  subimg1: string;
+  subimg2: string;
+  subimg3: string;
+  style: React.CSSProperties | undefined;
+  percent: string;
+}
+
 const Box = ({
   image,
   name,
@@ -9,7 +20,7 @@ const Box = ({
   subimg3,
   style,
   percent,
-}) => {
+}: BoxProps) => {
   return (
     <div>
       <div className="flex items-center justify-center h-screen w-96 relative bg-[#14172b] ">
